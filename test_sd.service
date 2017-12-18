@@ -1,0 +1,10 @@
+[Unit]
+Description=A systemd test service
+
+[Service]
+ExecStart=/usr/bin/test_sd
+
+[Install]
+WantedBy=multi-user.target
+
+
